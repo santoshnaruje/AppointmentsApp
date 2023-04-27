@@ -1,0 +1,15 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  height: 150px;
+  width: 300px;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

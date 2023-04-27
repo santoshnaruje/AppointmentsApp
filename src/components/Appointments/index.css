@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.card {
+  height: 100vh;
+  width: 100vw;
+}
+ul {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.login-card {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  overflow-y: auto;
+}
+.starred-btn {
+  border-radius: 14px;
+  width: 126px;
+  height: 30px;
+}
+@media (max-width: 576px) {
+  .image {
+    display: none;
+  }
+  * {
+    font-size: 14px;
+  }
+  input {
+    width: 200px !important;
+  }
+}
